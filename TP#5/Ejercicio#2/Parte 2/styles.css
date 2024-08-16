@@ -1,0 +1,61 @@
+.contenedor{
+    width:  90%;
+    margin: 0 auto;
+    background-color: aqua;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pan{
+    margin: 0 auto;
+    background-color: #DEB887;
+    width: 400px;
+    height: 50px;    
+}
+
+#salchicha{
+    margin: 0 auto;
+    background-color:#A52A2A;
+    width: 500px;
+    height: 45px;
+    border-radius: 50px;    
+}
+
+#arriba{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 10px solid #B5956C;
+}
+
+#abajo{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 10px solid #B5956C;
+}
+
+#lechuga{
+    margin: 0 auto;
+    background-color:#0dca43;
+    border: solid #0d9e36 2px;
+    width: 420px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#tomate{
+    margin: 0 auto;
+    display: flex;
+    height: 15px;  
+    width: 400px;    
+}
+
+.tomate--rodaja{    
+    background-color: red;
+    border-radius:12px ;
+    flex: 1; 
+    border: solid rgb(202, 6, 6) 2px;
+}

@@ -1,0 +1,42 @@
+.Carnivoro{
+    background-color: rgb(172, 5, 5);   
+}
+
+.Herbivoro{
+    background-color: rgb(19, 240, 19);   
+}
+
+#T-Rex{
+    color:whitesmoke;
+    font-size: 24px;
+}
+
+#Triceratop{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.Volador{
+    text-shadow: 2px 4px 3px black;
+}
+
+.Acuatico{
+    font-family: "Lucida Handwriting",cursive;
+    color:blue;
+}
+
+.Guía{
+    text-align: center;
+    color:brown;
+    list-style: none;
+    
+}
+
+.Guía a{
+    text-decoration: none;
+}
+
+.Atraccion{
+    letter-spacing: 6px;
+    border: 1px green dotted;
+}

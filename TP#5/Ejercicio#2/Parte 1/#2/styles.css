@@ -1,0 +1,32 @@
+div{
+    height: 150px;
+    border: solid #092454 3px;    
+}
+
+#uno{
+    background-color: #e69ef2;
+    position:relative;
+    top: 50px;
+    left: 50px;
+}
+
+#dos{
+    background-color: #62d0ff;
+    position:absolute;
+    left:40px;
+    right: 50px;
+}
+
+#tres{
+    background-color:#ced5db ;
+    position: sticky;
+    top:120px;
+}
+
+#cuatro{
+    background-color: #85e38d ;
+    position:fixed;
+}
+p{
+    font-size: 1000%;
+}

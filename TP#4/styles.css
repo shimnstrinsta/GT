@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://lh3.googleusercontent.com/proxy/BSNSDTlQPrgJFzSUoJgo9SoPupMyumTq1kQ1OINuj_8kFPGDJEgJQA8lSZSTjwH61tDOo_Sp6cVRocchEXMJTLItlJEHllOtYj1DSVXjPMqcZjaPhsG51gSNfHWVVrvT5JgmlxhyhQ");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    background-color: rgba(28, 145, 139, 0.89);
+    margin-left:10%;
+    margin-right:10%;
+    border: solid black 3px;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;    
+    font-style: normal;
+}
+
+#decision{
+    text-align: left;
+    margin-left: 2%;
+}
+
+.text{
+    background-color: rgba(255, 255, 255, 0.884);
+    border:black 2px solid;
+    margin-left:2%;
+    margin-right:2%;
+    padding: 3%;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.image{
+    text-align: center;
+}
+
+img{
+    border: solid black 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.options{
+    margin-left: 2%;
+        
+}
+
+.options li{
+    margin: 5px; 
+}
+
+.options a, .final a{
+    text-decoration: none;
+    color: black;     
+    font-size: 26px;  
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.options a:hover,.final a:hover{
+    color: white;    
+}
+
+.final{
+    text-align: center;    
+    margin-bottom: 20px;
+}
+

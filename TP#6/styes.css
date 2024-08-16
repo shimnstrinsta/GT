@@ -1,0 +1,47 @@
+*{
+    background-color:aliceblue; 
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto;  
+    background-color:aliceblue;  
+}
+
+#title{
+    width: 10.5%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    padding-bottom: 15px;
+}
+
+#contact{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+    text-transform: uppercase;
+    display: block;
+    border-top: 2px solid red;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 30%;
+    margin:1.4%;
+}
+img:hover{
+    width: 30.5%;
+    transition: all 2s;
+}

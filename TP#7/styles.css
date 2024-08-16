@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(233, 233, 165);
+}
+
+#profile{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#profile img{
+    border-radius: 50%;
+    width: 15%;
+    margin: 2%;
+}
+
+#portfolio{
+    text-align: center;
+    background-color: beige;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio__container{    
+    width: 60%;
+    margin: 0 auto;
+}
+
+.portfolio__container__proyects{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+}
+
+.portfolio__container__proyects img{
+    width: 100%;
+    border-radius: 4%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;        
+}
+
+.about__container{
+    width: 60%;    
+    margin: 0 auto;
+}
+
+
+#contact{
+    text-align: center;
+    background-color: beige;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact__container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60%;    
+    display: grid;
+    margin:0 auto;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    grid-gap: 3%;
+    margin-bottom: 30px;
+}
+
+#contact__container textarea{
+    resize:none;
+    height: 150px;    
+}
+#contact__container input:nth-of-type(4) {
+    width: 100px;
+    border-radius: 6px;
+    border: black solid 1px;
+}
+
+footer{
+    background-color: rgb(201, 201, 146);
+}
+
+.footer__container{
+    padding-top: 30px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;      
+}
+
+.footer__direction{
+    text-align: center;   
+    border-right: black solid 2px; 
+}
+
+.footer__media{
+    text-align: center;    
+}
+
+.footer__media a:visited{
+    color: black;   
+}
+
+.footer__media a i{
+    text-align: center;   
+    margin: 10px;     
+    font-size: 30px;
+}
+
+.footer__copyright{    
+    padding-top: 30px;    
+    padding-bottom: 20px;    
+    text-align: center;    
+}
+
+@media only screen and (max-width: 500px){
+    .footer__container{                      
+        grid-template-columns: 1fr;  
+        grid-gap: 20px;
+    }
+        
+    .footer__direction{        
+        border-right:none;
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    #contact__container{
+        grid-template-columns: 1fr;                            
+        grid-gap: 1%;
+        text-align: center;                
+    }
+    .portfolio__container__proyects{
+        grid-template-columns: 1fr;
+        grid-gap: 1%;
+        margin-bottom: 30px;
+    }
+    #contact__container input:nth-of-type(4) {        
+        margin: 0 auto;
+    }
+    
+}
